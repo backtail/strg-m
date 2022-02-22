@@ -2,7 +2,7 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Backups
-/ctrl+m-backups/
+strg+m-backups/
 
 # LTSpice Simulation
 *.log
@@ -20,6 +20,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+fp-lib-table
 
 # Netlist files (exported from Eeschema)
 *.net
