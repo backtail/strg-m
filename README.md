@@ -1,6 +1,7 @@
 # ctrl+m
 3HP Eurorack module
 CV modifier
+![](render.png) 
 
 ### Pots
 - **Offset**: offesets, full range -5V to 5V
