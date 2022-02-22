@@ -3091,6 +3091,11 @@
       (net 17 "/ctrl+m interface/0V") (pintype "passive") (tstamp 320f3962-bdfd-4788-b62c-8c0e601157d3))
     (pad "T" thru_hole oval (at -2.5 0 270) (size 1.2 3) (drill oval 0.8 2.6) (layers *.Cu *.Mask)
       (net 16 "/ctrl+m interface/cv_out") (pintype "passive") (tstamp cfe2f2a5-c214-49df-a033-cedac5cfd6a0))
+    (model "${KICAD6_3RD_PARTY}/Connector_Audio/PJ392.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (layer "F.Cu")
@@ -3209,7 +3214,7 @@
       (net 11 "/ctrl+m interface/range_right") (pinfunction "2") (pintype "passive") (tstamp e0fb4996-14ac-4391-982b-b8f6ac20cf31))
     (pad "3" thru_hole circle (at 0 -5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 11 "/ctrl+m interface/range_right") (pinfunction "3") (pintype "passive") (tstamp 202e8cc5-78e5-4531-84ca-9f84743c5ba5))
-    (model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK09K_Single_Vertical.wrl"
+    (model "${KICAD6_3RD_PARTY}/Potentiometer/RK097.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3305,7 +3310,7 @@
       (net 13 "/ctrl+m interface/offset_middle") (pinfunction "2") (pintype "passive") (tstamp 656ce746-9a35-46db-bc01-2c9d7073d9c1))
     (pad "3" thru_hole circle (at 0 -5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 14 "/ctrl+m interface/offset_right") (pinfunction "3") (pintype "passive") (tstamp c093b12b-9101-4ae6-b5f1-e5da9cfa0af7))
-    (model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK09K_Single_Vertical.wrl"
+    (model "${KICAD6_3RD_PARTY}/Potentiometer/RK097.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3359,7 +3364,7 @@
       (net 19 "/ctrl+m interface/clip_right") (pinfunction "2") (pintype "passive") (tstamp 57284973-19a9-484b-b255-588e1439b097))
     (pad "3" thru_hole circle (at 0 -5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 19 "/ctrl+m interface/clip_right") (pinfunction "3") (pintype "passive") (tstamp ff0af08e-ee82-4883-9c97-98d5fe94670c))
-    (model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK09K_Single_Vertical.wrl"
+    (model "${KICAD6_3RD_PARTY}/Potentiometer/RK097.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3439,6 +3444,11 @@
       (net 17 "/ctrl+m interface/0V") (pintype "passive") (tstamp b44d4612-4568-42a6-ac14-ec1853453edf))
     (pad "T" thru_hole oval (at -2.5 0 90) (size 1.2 3) (drill oval 0.8 2.6) (layers *.Cu *.Mask)
       (net 15 "/ctrl+m interface/cv_in") (pintype "passive") (tstamp a958383a-f4a2-49db-824d-87ac4531157f))
+    (model "${KICAD6_3RD_PARTY}/Connector_Audio/PJ392.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "OS_Drill_Holes:RK097_Drill_Hole_Panel" (layer "F.Cu")
@@ -3464,17 +3474,17 @@
     (at -22.86 -97.155)
     (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 9475edbb-286b-4bed-b5f0-0b68a18bdc52)
+      (tstamp e002a979-85bc-451a-a77b-29ce2a8f19f9)
     )
     (fp_text value "PJ392_Drill_Hole_Panel" (at 0 4 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 4375ab9a-cebb-448a-bb75-1fa4fe977171)
+      (tstamp 8313e187-c805-4927-8002-313a51839243)
     )
     (fp_text user "${REFERENCE}" (at 0 5.5 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 3bdaeac5-b4b7-4a96-b0da-b5e1b46798c2)
+      (tstamp b5cea0b5-192f-476b-a3c8-0c26e2231699)
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.2 6.2) (drill 6.2) (layers *.Mask) (tstamp da7e6488-201f-4286-b86a-ca5aced3697a))
+    (pad "" np_thru_hole circle (at 0 0) (size 6.2 6.2) (drill 6.2) (layers *.Mask) (tstamp fd34aa56-ded2-4e97-965a-a39457716f0c))
   )
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
