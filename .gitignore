@@ -32,3 +32,8 @@ fp-lib-table
 # Exported BOM files
 *.xml
 *.csv
+
+# gerber files
+*.gbr
+*.drl
+*.gbrjob
