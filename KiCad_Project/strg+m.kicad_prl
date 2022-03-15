@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_nets": [
       "GND",
-      "/ctrl+m interface/0V"
+      "/strg+m interface/offset_middle"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,

@@ -391,7 +391,6 @@
         "nets": [
           "+12V",
           "-12V",
-          "/ctrl+m interface/0V",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
